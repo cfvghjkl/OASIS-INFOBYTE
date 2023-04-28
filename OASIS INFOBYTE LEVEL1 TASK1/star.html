@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="C:\Users\lenovo\Downloads\logo.png" class="logo"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's <span>Starbucks</span></h2>
+                <p>Starbucks, American company that is the largest coffeehouse chain and one of the most recognizable brands in the world. Its headquarters are in Seattle, Washington. Starbucks serves hot and cold drinks, whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino beverages, pastries, and snacks.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="C:\Users\lenovo\Pictures\starbuck2.png">
+            </div>
+        </div>
+        <ul class="thumb"
+            <li><a href="#"><img src="C:\Users\lenovo\Downloads\thumb1.png" ></a></li>
+            <li><a href="#"><img src="C:\Users\lenovo\Downloads\thumb2.png" ></a></li>
+            <li><a href="#"><img src= "C:\Users\lenovo\Downloads\thumb3.png" ></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+
+    </script>
+</body>
+</html>
